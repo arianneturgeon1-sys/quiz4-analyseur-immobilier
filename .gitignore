@@ -1,0 +1,20 @@
+# Environnement virtuel
+venv/
+env/
+.venv/
+
+# Fichiers Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Variables d'environnement (NE JAMAIS PUSHER VOS CLÉS API)
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

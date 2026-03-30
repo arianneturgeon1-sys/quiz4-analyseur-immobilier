@@ -1,0 +1,26 @@
+DICTIONNAIRE DES VARIABLES — kc_house_data.csv
+================================================
+
+Variable            Descriptif
+--------            ---------
+id                  ID unique pour chaque maison vendue
+date                Date de la vente de la maison
+price               Prix de chaque maison vendue en $ americain
+bedrooms            Nombre de chambres
+bathrooms           Nombre de salles de bains, ou 0,5 represente une chambre avec toilettes mais sans douche
+sqft_living         Superficie en pieds carres de l'espace de vie interieur
+sqft_lot            Superficie en pieds carres du terrain
+floors              Nombre d'etages
+waterfront          Une variable muette (dummy) indiquant si l'appartement donnait sur le front de mer ou non
+view                Un indice de 0 a 4 de la qualite de la vue de la propriete
+condition           Un indice de 1 a 5 sur l'etat de la maison
+grade               Un indice de 1 a 13, ou 1-3 est en deca de la construction et de la conception des batiments, 7 a un niveau moyen de construction et de conception et 11-13 ont un niveau de qualite eleve de la construction et de la conception
+sqft_above          La superficie en pieds carres de l'espace interieur du logement qui est au-dessus du niveau du sol
+sqft_basement       La superficie en pieds carres de l'espace interieur du logement qui est sous le niveau du sol
+yr_built            L'annee de construction initiale de la maison
+yr_renovated        L'annee de la derniere renovation de la maison
+zipcode             Dans quelle zone de code postal se trouve la maison
+lat                 Latitude
+long                Longitude
+sqft_living15       La superficie en pieds carres de l'espace de vie interieur du logement pour les 15 voisins les plus proches
+sqft_lot15          La superficie en pieds carres des terrains des 15 voisins les plus proches
